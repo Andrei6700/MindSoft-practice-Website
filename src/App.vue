@@ -137,7 +137,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="feather feather-map-pin"
-                style="height: 24px; height: 24px; "
+                style="height: 24px; height: 24px"
               >
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
@@ -153,7 +153,7 @@
               <!-- settings -->
               <img
                 src="src/assets/social-media-headers/settings.png"
-                style="height: 24px; height: 24px ;padding-left: 20px"
+                style="height: 24px; height: 24px; padding-left: 20px"
               />
               <div>Settings</div>
             </div>
@@ -203,11 +203,11 @@
                 />
               </button>
             </div>
-            <div class="marginLeft">
+            <div class="marginLeft-search">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="15"
-                height="15"
+                width="37.11"
+                height="27.11"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -224,8 +224,8 @@
               <svg
                 viewBox="0 0 72 72"
                 xmlns="http://www.w3.org/2000/svg"
-                width="15"
-                height="15"
+                width="37.11"
+                height="27.11"
                 style="padding-right: 5%; padding-left: 5%"
               >
                 <g
@@ -256,8 +256,8 @@
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="15"
-                height="15"
+                width="37.11"
+                height="27.11"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -275,12 +275,13 @@
               <img
                 src="src/assets/social-media-headers/shopping-bag.jpg"
                 style="
-                  width: 15px;
-                  height: 15px;
+                  width: 17.11px;
+                  height: 17.11px;
                   padding-right: 5%;
                   padding-left: 5%;
                 "
               />
+              {{ "aici vine pretul " }}
             </div>
           </div>
         </div>
@@ -303,10 +304,17 @@
         <div>Brands</div>
       </div>
     </div>
+    
     <div class="Page_header_v1">
+     
       <div class="header-produse">
-        <div>1</div>
-        <div>2</div>
+
+          <div style="font-weight: bold;font-size:xx-large;">Shop</div>
+          <div style="padding-top: 10px;">
+          <svg height="24" :width="24" viewBox="0 0 8 8" width="8" xmlns="http://www.w3.org/2000/svg"><path d="m0 0v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2z" 
+            style="padding-left: 30px;"/></svg>
+        <img src="src/assets/social-media-headers/icon list.png" style="height: 24px; width: 24px; padding-left: 20px;">
+        </div>
       </div>
     </div>
     <div class="Product_list_home_page">
