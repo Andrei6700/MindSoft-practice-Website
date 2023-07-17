@@ -304,7 +304,7 @@
         <div>
          
           <div class="select-box">
-            <!-- <div class="categorii"> -->
+            <div class="categorii">
               <p>Categorii</p>
             
             <div class="select-box__current" tabindex="1">
@@ -428,7 +428,7 @@
               </li>
             </ul>
           </div>
-          <!-- </div> -->
+          </div>
         </div>
         <div
           style="
@@ -438,6 +438,7 @@
             display: flex;
             border-radius: 3%;
             padding: 6% 0;
+            border:1px solid #EEF0F4;
           "
         >
           <div class="radio-group">
