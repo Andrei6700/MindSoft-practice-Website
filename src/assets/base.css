@@ -276,3 +276,16 @@ body {
   background-color: rgb(8, 72, 248);
   transition-duration: 0.2s;
 }
+
+
+.icons-header1{
+  padding: 4px 20.53px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.icons-socialmedia-header1{
+  display: flex;
+  padding-right: 20.53px;
+}

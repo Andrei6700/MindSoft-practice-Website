@@ -13,7 +13,7 @@
       <p class="price">{{ produs.price }}</p>
       <button class="button-buy">
         <img
-          src="../social-media-headers/shopping-bag.png"
+          src="src/assets/social-media-headers/shopping-bag.jpg"
           style="height: 25px"
         />
       </button>
