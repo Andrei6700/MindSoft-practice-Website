@@ -156,6 +156,7 @@
                 style="height: 24px; height: 24px; padding-left: 20px"
               />
               <div>Settings</div>
+              <div style="padding: 0 20px">FAQ</div>
             </div>
           </div>
         </div>
@@ -300,20 +301,239 @@
     </div>
     <div class="Page_category_v1">
       <div class="filters">
-        <div>Categories</div>
-        <div>Brands</div>
+        <div>
+         
+          <div class="select-box">
+            <!-- <div class="categorii"> -->
+              <p>Categorii</p>
+            
+            <div class="select-box__current" tabindex="1">
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="0"
+                  value="1"
+                  name="categorie"
+                  checked="checked"
+                />
+                <p class="select-box__input-text">ALL (10929)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="1"
+                  value="2"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">TV &amp; Audio (819)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="2"
+                  value="3"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">Smartphones (1126)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="3"
+                  value="4"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">Gadgets (783)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="4"
+                  value="5"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">Photo &amp; Video (511)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="5"
+                  value="6"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">Gifts (1126)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="6"
+                  value="7"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">Books (2206)</p>
+              </div>
+              <div class="select-box__value">
+                <input
+                  class="select-box__input"
+                  type="radio"
+                  id="7"
+                  value="8"
+                  name="categorie"
+                />
+                <p class="select-box__input-text">Toys (4068)</p>
+              </div>
+              <img
+                class="select-box__icon"
+                src="http://cdn.onlinewebfonts.com/svg/img_295694.svg"
+                alt="Arrow Icon"
+              />
+            </div>
+            <ul class="select-box__list">
+              <li>
+                <label class="select-box__option" for="0">ALL (10929)</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="1"
+                  >TV &amp; Audio (819)</label
+                >
+              </li>
+              <li>
+                <label class="select-box__option" for="2"
+                  >Smartphones (1126)</label
+                >
+              </li>
+              <li>
+                <label class="select-box__option" for="3">Gadgets (783)</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="4"
+                  >Photo &amp; Video (511)</label
+                >
+              </li>
+              <li>
+                <label class="select-box__option" for="5">Gifts (1126)</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="6">Books (2206)</label>
+              </li>
+              <li>
+                <label class="select-box__option" for="7">Toys (4068)</label>
+              </li>
+            </ul>
+          </div>
+          <!-- </div> -->
+        </div>
+        <div
+          style="
+            background: white;
+            width: 75%;
+            margin-left: 12%;
+            display: flex;
+            border-radius: 3%;
+            padding: 6% 0;
+          "
+        >
+          <div class="radio-group">
+            <div style="color: black;font-weight: 700;font-size:large ;padding-bottom: 20px;">
+              Brands
+            </div>
+            <input
+              class="radio-input"
+              name="radio-group"
+              id="radio1"
+              type="radio"
+            />
+            <label class="radio-label" for="radio1">
+              <span class="radio-square"></span>
+              Apple (32)
+            </label>
+
+            <input
+              class="radio-input"
+              name="radio-group"
+              id="radio2"
+              type="radio"
+            />
+            <label class="radio-label" for="radio2">
+              <span class="radio-square"></span>
+              Samsung (64)
+            </label>
+
+            <input
+              class="radio-input"
+              name="radio-group"
+              id="radio3"
+              type="radio"
+            />
+            <label class="radio-label" for="radio3">
+              <span class="radio-square"></span>
+              LG (21)
+            </label>
+
+            <input
+              class="radio-input"
+              name="radio-group"
+              id="radio4"
+              type="radio"
+            />
+            <label class="radio-label" for="radio4">
+              <span class="radio-square"></span>
+              Huawei (53)
+            </label>
+
+            <input
+              class="radio-input"
+              name="radio-group"
+              id="radio5"
+              type="radio"
+            />
+            <label class="radio-label" for="radio5">
+              <span class="radio-square"></span>
+              Lenovo (26)
+            </label>
+
+            <input
+              class="radio-input"
+              name="radio-group"
+              id="radio6"
+              type="radio"
+            />
+            <label class="radio-label" for="radio6">
+              <span class="radio-square"></span>
+              Nokia (37)
+            </label>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <div class="Page_header_v1">
-     
-      <div class="header-produse">
 
-          <div style="font-weight: bold;font-size:xx-large;">Shop</div>
-          <div style="padding-top: 10px;">
-          <svg height="24" :width="24" viewBox="0 0 8 8" width="8" xmlns="http://www.w3.org/2000/svg"><path d="m0 0v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2z" 
-            style="padding-left: 30px;"/></svg>
-        <img src="src/assets/social-media-headers/icon list.png" style="height: 24px; width: 24px; padding-left: 20px;">
+    <div class="Page_header_v1">
+      <div class="header-produse">
+        <div style="font-weight: bold; font-size: xx-large">Shop</div>
+        <div style="padding-top: 10px">
+          <svg
+            height="24"
+            :width="24"
+            viewBox="0 0 8 8"
+            width="8"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m0 0v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2z"
+              style="padding-left: 30px"
+            />
+          </svg>
+          <img
+            src="src/assets/social-media-headers/icon list.png"
+            style="height: 24px; width: 24px; padding-left: 20px"
+          />
         </div>
       </div>
     </div>
