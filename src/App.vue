@@ -162,11 +162,14 @@
         </div>
       </div>
       <div class="Header_v1">
-        <div class="header-search">
-          <div class="logo-search">
+        <div class="header-search" style="padding-top: 0px">
+          <div
+            class="logo-search"
+            style="padding-bottom: 0px; padding-top: 0px"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
+              width="44"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
@@ -207,7 +210,7 @@
             <div class="marginLeft-search">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="37.11"
+                width="47.11"
                 height="27.11"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -225,7 +228,7 @@
               <svg
                 viewBox="0 0 72 72"
                 xmlns="http://www.w3.org/2000/svg"
-                width="37.11"
+                width="47.11"
                 height="27.11"
                 style="padding-right: 5%; padding-left: 5%"
               >
@@ -257,7 +260,7 @@
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="37.11"
+                width="47.11"
                 height="27.11"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -282,7 +285,9 @@
                   padding-left: 5%;
                 "
               />
-              {{ "aici vine pretul " }}
+              <div style=" padding-right: 5%; padding-left: 5%;">
+                {{count +"$"}}
+              </div>
             </div>
           </div>
         </div>
@@ -302,132 +307,133 @@
     <div class="Page_category_v1">
       <div class="filters">
         <div>
-         
           <div class="select-box">
             <div class="categorii">
               <p>Categorii</p>
-            
-            <div class="select-box__current" tabindex="1">
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="0"
-                  value="1"
-                  name="categorie"
-                  checked="checked"
+
+              <div class="select-box__current" tabindex="1">
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="0"
+                    value="1"
+                    name="categorie"
+                    checked="checked"
+                  />
+                  <p class="select-box__input-text">ALL (10929)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="1"
+                    value="2"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">TV &amp; Audio (819)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="2"
+                    value="3"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">Smartphones (1126)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="3"
+                    value="4"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">Gadgets (783)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="4"
+                    value="5"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">Photo &amp; Video (511)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="5"
+                    value="6"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">Gifts (1126)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="6"
+                    value="7"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">Books (2206)</p>
+                </div>
+                <div class="select-box__value">
+                  <input
+                    class="select-box__input"
+                    type="radio"
+                    id="7"
+                    value="8"
+                    name="categorie"
+                  />
+                  <p class="select-box__input-text">Toys (4068)</p>
+                </div>
+                <img
+                  class="select-box__icon"
+                  src="http://cdn.onlinewebfonts.com/svg/img_295694.svg"
+                  alt="Arrow Icon"
                 />
-                <p class="select-box__input-text">ALL (10929)</p>
               </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="1"
-                  value="2"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">TV &amp; Audio (819)</p>
-              </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="2"
-                  value="3"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">Smartphones (1126)</p>
-              </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="3"
-                  value="4"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">Gadgets (783)</p>
-              </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="4"
-                  value="5"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">Photo &amp; Video (511)</p>
-              </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="5"
-                  value="6"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">Gifts (1126)</p>
-              </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="6"
-                  value="7"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">Books (2206)</p>
-              </div>
-              <div class="select-box__value">
-                <input
-                  class="select-box__input"
-                  type="radio"
-                  id="7"
-                  value="8"
-                  name="categorie"
-                />
-                <p class="select-box__input-text">Toys (4068)</p>
-              </div>
-              <img
-                class="select-box__icon"
-                src="http://cdn.onlinewebfonts.com/svg/img_295694.svg"
-                alt="Arrow Icon"
-              />
+              <ul class="select-box__list">
+                <li>
+                  <label class="select-box__option" for="0">ALL (10929)</label>
+                </li>
+                <li>
+                  <label class="select-box__option" for="1"
+                    >TV &amp; Audio (819)</label
+                  >
+                </li>
+                <li>
+                  <label class="select-box__option" for="2"
+                    >Smartphones (1126)</label
+                  >
+                </li>
+                <li>
+                  <label class="select-box__option" for="3"
+                    >Gadgets (783)</label
+                  >
+                </li>
+                <li>
+                  <label class="select-box__option" for="4"
+                    >Photo &amp; Video (511)</label
+                  >
+                </li>
+                <li>
+                  <label class="select-box__option" for="5">Gifts (1126)</label>
+                </li>
+                <li>
+                  <label class="select-box__option" for="6">Books (2206)</label>
+                </li>
+                <li>
+                  <label class="select-box__option" for="7">Toys (4068)</label>
+                </li>
+              </ul>
             </div>
-            <ul class="select-box__list">
-              <li>
-                <label class="select-box__option" for="0">ALL (10929)</label>
-              </li>
-              <li>
-                <label class="select-box__option" for="1"
-                  >TV &amp; Audio (819)</label
-                >
-              </li>
-              <li>
-                <label class="select-box__option" for="2"
-                  >Smartphones (1126)</label
-                >
-              </li>
-              <li>
-                <label class="select-box__option" for="3">Gadgets (783)</label>
-              </li>
-              <li>
-                <label class="select-box__option" for="4"
-                  >Photo &amp; Video (511)</label
-                >
-              </li>
-              <li>
-                <label class="select-box__option" for="5">Gifts (1126)</label>
-              </li>
-              <li>
-                <label class="select-box__option" for="6">Books (2206)</label>
-              </li>
-              <li>
-                <label class="select-box__option" for="7">Toys (4068)</label>
-              </li>
-            </ul>
-          </div>
           </div>
         </div>
         <div
@@ -438,11 +444,18 @@
             display: flex;
             border-radius: 3%;
             padding: 6% 0;
-            border:1px solid #EEF0F4;
+            border: 1px solid #eef0f4;
           "
         >
           <div class="radio-group">
-            <div style="color: black;font-weight: 700;font-size:large ;padding-bottom: 20px;">
+            <div
+              style="
+                color: black;
+                font-weight: 700;
+                font-size: large;
+                padding-bottom: 20px;
+              "
+            >
               Brands
             </div>
             <input
@@ -516,7 +529,7 @@
     </div>
 
     <div class="Page_header_v1">
-      <div class="header-produse">
+      <div class="header-produse" style="padding-left: 0px; padding-top: 2%">
         <div style="font-weight: bold; font-size: xx-large">Shop</div>
         <div style="padding-top: 10px">
           <svg
@@ -539,9 +552,10 @@
       </div>
     </div>
     <div class="Product_list_home_page">
-      <div class="produse">
-        <produse />
+      <div class="produse" style="padding-right: 5%; padding-left: 0px">
+        <produse @increment="increment" />
       </div>
+      
     </div>
   </div>
 </template>
@@ -550,9 +564,18 @@
 import produse from "./assets/produse/produse.vue";
 
 export default {
-  name: "App",
   components: {
     produse,
+  },
+  data() {
+    return {
+      count: 0,
+    };
+  },
+  methods: {
+    increment() {
+      this.count++;
+    },
   },
 };
 </script>

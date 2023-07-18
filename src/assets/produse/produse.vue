@@ -1,21 +1,13 @@
 <template>
-  <div
-    class="item-info"
-    v-for="produs in produse"
-    :key="produs.produs"
-    style="height: 403px"
->
+  <div class="item-info" v-for="produs in produse" :key="produs.produs" style="height: 403px">
     <p class="tip-produs">{{ produs.tip_produs }}</p>
     <p class="produs-name">{{ produs.produs }}</p>
     <img class="image-css" :src="produs.image" alt="Product Image" />
 
     <div class="pret-buy">
       <p class="price">{{ produs.price }}</p>
-      <button class="button-buy">
-        <img
-          src="src/assets/social-media-headers/shopping-bag.jpg"
-          style="height: 25px"
-        />
+      <button @click="handleButtonClick" class="button-buy">
+        <img src="src/assets/social-media-headers/shopping-bag.jpg" style="height: 25px" />
       </button>
     </div>
   </div>
@@ -75,8 +67,13 @@ export default {
           produs: "Sony SRS-XP700, MEGA BASS, Bluetooth, LDAC, Wireless, IPX4",
           price: "$600.00",
         },
-      ],
+        ],
     };
+  },
+  methods: {
+    handleButtonClick() {
+      this.$emit('increment');
+    },
   },
 };
 </script>
