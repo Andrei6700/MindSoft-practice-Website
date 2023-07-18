@@ -162,10 +162,10 @@
         </div>
       </div>
       <div class="Header_v1">
-        <div class="header-search" style="padding-top: 0px">
+        <div class="header-search">
           <div
             class="logo-search"
-            style="padding-bottom: 0px; padding-top: 0px"
+            style="padding-bottom: 0px; padding-top: 0px;"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

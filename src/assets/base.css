@@ -15,7 +15,10 @@ body {
   display: grid;
   grid:
 
-  "top_header_v1 top_header_v1" 5% "Header_v1 Header_v1" 9% "Page_category_v1 Page_header_v1" 20% "Page_category_v1 Product_list_home_page" 100% / 20% 80%;
+  "top_header_v1 top_header_v1" 15%
+  "Header_v1 Header_v1" 1%
+  "Page_category_v1 Page_header_v1" 20%
+  "Page_category_v1 Product_list_home_page" 100% / 20% 80%;
 
   grid-auto-flow: column dense;
 
@@ -27,11 +30,15 @@ body {
   color: #7d8fa9;
   grid-area: top_header_v1;
   gap: 1px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Header_v1 {
   background: #fff;
   grid-area: Header_v1;
+  display: flex;
+flex-direction: column;
 }
 
 .Page_category_v1 {
@@ -89,6 +96,8 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 1.5%;
+  display: flex;
+  flex-direction: row;
 }
 
 /* header produse */
@@ -157,13 +166,14 @@ body {
 .logo-search {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: #fff;
   color: #7d8fa9;
   height: 100%;
   box-sizing: border-box;
-    padding-bottom: 1%;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 /* de jos sunt cardurile */
