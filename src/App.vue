@@ -529,9 +529,10 @@
     </div>
 
     <div class="Page_header_v1">
-      <div class="header-produse" style="padding-left: 0px; padding-top: 2%">
-        <div style="font-weight: bold; font-size: xx-large">Shop</div>
-        <div style="padding-top: 10px">
+      <div class="border-radius-shop" style="border: 1px solid #EEF0F4;; border-radius:  9px;margin-top: 3%;">
+      <div class="header-produse" style="padding-left: 0px; padding-top: 1%">
+        <div style="font-weight: bold; font-size: xx-large; margin-bottom: 0.5%;   margin-left: 1%;">Shop</div>
+        <div style="padding-left: 1%;  padding-bottom: 1%;">
           <svg
             height="24"
             :width="24"
@@ -549,6 +550,7 @@
             style="height: 24px; width: 24px; padding-left: 20px"
           />
         </div>
+      </div>
       </div>
     </div>
     <div class="Product_list_home_page">

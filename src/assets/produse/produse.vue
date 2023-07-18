@@ -20,7 +20,7 @@ export default {
       produse: [
         {
           image: "/src/assets/produse-img/iphone_14_pro.jpg",
-          tip_produs: "Smartphone",
+          tip_produs: "Smartphones",
           produs: "Apple iPhone 14 Pro, LTPO Super Retina XDR OLED 6.1",
           price: "$1,200.00",
         },
