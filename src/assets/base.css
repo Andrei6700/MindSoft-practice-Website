@@ -14,11 +14,10 @@ body {
   height: 100vh;
   display: grid;
   grid:
-
-  "top_header_v1 top_header_v1" 15%
-  "Header_v1 Header_v1" 1%
-  "Page_category_v1 Page_header_v1" 20%
-  "Page_category_v1 Product_list_home_page" 100% / 20% 80%;
+    "top_header_v1 top_header_v1" 15%
+    "Header_v1 Header_v1" 1%
+    "Page_category_v1 Page_header_v1" 20%
+    "Page_category_v1 Product_list_home_page" 100% / 20% 80%;
 
   grid-auto-flow: column dense;
 
@@ -38,11 +37,11 @@ body {
   background: #fff;
   grid-area: Header_v1;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
 
 .Page_category_v1 {
-  background: #FFFFFF;
+  background: #ffffff;
   margin-bottom: 0;
   grid-area: Page_category_v1;
 }
@@ -121,19 +120,12 @@ flex-direction: column;
 
 /* produse */
 .produse {
-  width: auto;
   display: grid;
-  grid-template-rows: repeat(3, 33.3%);
-  grid-template-columns: repeat(4, 24%);
-  gap: 28px;
+  grid-template-columns: repeat(4, 1fr);
   color: black;
-  flex-wrap: wrap;
   background: #ffffff;
   padding: 0px 30px 30px 0px;
-  padding-left: 0px;
-  justify-items: stretch;
-  align-items: baseline;
-  padding-left: 5%;
+  grid-gap:20px
 }
 
 /* bara filtre */
@@ -184,8 +176,9 @@ flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   border-radius: 10px;
-  border: 1px solid #EEF0F4;
+  border: 1px solid #eef0f4;
   background: #ffffff;
+  padding: 20px;
 }
 
 .image-container {
@@ -246,6 +239,7 @@ flex-direction: column;
   align-content: center;
   padding-top: 30px;
   flex-direction: row;
+  margin: auto;
 }
 
 .button-buy {
@@ -323,27 +317,24 @@ flex-direction: column;
   transition-duration: 0.2s;
 }
 
-
-.icons-header1{
+.icons-header1 {
   padding: 4px 20.53px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.icons-socialmedia-header1{
+.icons-socialmedia-header1 {
   display: flex;
   padding-right: 20.53px;
 }
-
-
-
 
 .select-box {
   position: relative;
   display: block;
   margin: 0 auto;
-  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial",
+    sans-serif;
   font-size: 18px;
   color: #60666d;
   width: 75%;
@@ -361,7 +352,7 @@ flex-direction: column;
 .select-box__current:focus + .select-box__list {
   opacity: 1;
   -webkit-animation-name: none;
-          animation-name: none;
+  animation-name: none;
 }
 .select-box__current:focus + .select-box__list .select-box__option {
   cursor: pointer;
@@ -399,23 +390,24 @@ flex-direction: column;
   list-style: none;
   opacity: 0;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   -webkit-animation-timing-function: step-start;
-          animation-timing-function: step-start;
+  animation-timing-function: step-start;
   box-shadow: 0 15px 30px -10px rgba(253, 6, 6, 0.1);
 }
 .select-box__option {
   display: block;
   padding: 15px;
-  background-color: #EEF0F4;
+  background-color: #eef0f4;
 }
-.select-box__option:hover, .select-box__option:focus {
+.select-box__option:hover,
+.select-box__option:focus {
   color: #546c84;
-  background-color: #EEF0F4;
+  background-color: #eef0f4;
 }
 
 .radio-group {
@@ -427,7 +419,6 @@ flex-direction: column;
   justify-content: center;
   flex-direction: column;
   padding-left: 5%;
-
 }
 
 .radio-label {
@@ -436,8 +427,8 @@ flex-direction: column;
   color: black;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0.5em;
   margin-bottom: 0.5em;
   background-color: #fff;
@@ -475,7 +466,7 @@ flex-direction: column;
 }
 
 .radio-input:checked + .radio-label .radio-square::after {
-  content: '';
+  content: "";
   display: block;
   width: 0.5em;
   height: 0.5em;
@@ -485,15 +476,13 @@ flex-direction: column;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-
-.categorii{
-  font-size:large ;
+.categorii {
+  font-size: large;
   padding-bottom: 20px;
   background-color: white;
   border-radius: 3%;
 }
-

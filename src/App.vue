@@ -162,10 +162,10 @@
         </div>
       </div>
       <div class="Header_v1">
-        <div class="header-search">
+        <div class="header-search" style="padding-top: 1.1%;">
           <div
             class="logo-search"
-            style="padding-bottom: 0px; padding-top: 0px;"
+            style="padding-bottom: 0px; padding-top: 0px"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -285,8 +285,8 @@
                   padding-left: 5%;
                 "
               />
-              <div style=" padding-right: 5%; padding-left: 5%;">
-                {{count +"$"}}
+              <div style="padding-right: 5%; padding-left: 5%">
+                {{ count + "$" }}
               </div>
             </div>
           </div>
@@ -321,7 +321,7 @@
                     name="categorie"
                     checked="checked"
                   />
-                  <p class="select-box__input-text">ALL (10929)</p>
+                  <p class="select-box__input-text" style="font-weight: 700; color: #000;">ALL (10929)</p>
                 </div>
                 <div class="select-box__value">
                   <input
@@ -401,7 +401,7 @@
               </div>
               <ul class="select-box__list">
                 <li>
-                  <label class="select-box__option" for="0">ALL (10929)</label>
+                  <label class="select-box__option" for="0" style="font-weight: 700; color: #000;">ALL (10929)</label>
                 </li>
                 <li>
                   <label class="select-box__option" for="1"
@@ -529,35 +529,46 @@
     </div>
 
     <div class="Page_header_v1">
-      <div class="border-radius-shop" style="border: 1px solid #EEF0F4;; border-radius:  9px;margin-top: 3%;">
-      <div class="header-produse" style="padding-left: 0px; padding-top: 1%">
-        <div style="font-weight: bold; font-size: xx-large; margin-bottom: 0.5%;   margin-left: 1%;">Shop</div>
-        <div style="padding-left: 1%;  padding-bottom: 1%;">
-          <svg
-            height="24"
-            :width="24"
-            viewBox="0 0 8 8"
-            width="8"
-            xmlns="http://www.w3.org/2000/svg"
+      <div
+        class="border-radius-shop"
+        style="border: 1px solid #eef0f4; border-radius: 9px; margin-top: 3%"
+      >
+        <div class="header-produse" style="padding-left: 0px; padding-top: 1%">
+          <div
+            style="
+              font-weight: bold;
+              font-size: xx-large;
+              margin-bottom: 0.5%;
+              margin-left: 1%;
+            "
           >
-            <path
-              d="m0 0v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2z"
-              style="padding-left: 30px"
+            Shop
+          </div>
+          <div style="padding-left: 1%; padding-bottom: 1%">
+            <svg
+              height="24"
+              :width="24"
+              viewBox="0 0 8 8"
+              width="8"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m0 0v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2zm-6 3v2h2v-2zm3 0v2h2v-2zm3 0v2h2v-2z"
+                style="padding-left: 30px"
+              />
+            </svg>
+            <img
+              src="src/assets/social-media-headers/icon list.png"
+              style="height: 24px; width: 24px; padding-left: 20px"
             />
-          </svg>
-          <img
-            src="src/assets/social-media-headers/icon list.png"
-            style="height: 24px; width: 24px; padding-left: 20px"
-          />
+          </div>
         </div>
-      </div>
       </div>
     </div>
     <div class="Product_list_home_page">
       <div class="produse" style="padding-right: 5%; padding-left: 0px">
         <produse @increment="increment" />
       </div>
-      
     </div>
   </div>
 </template>
